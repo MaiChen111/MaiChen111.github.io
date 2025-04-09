@@ -1,0 +1,48 @@
+body {
+    user-select: none;
+    /* none|auto|text|contain|all; 禁止选中文本（防止复制） */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+}
+
+.jspsych-btn {
+    font-size: 13pt;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    margin: 2px 0;
+    padding: 5px 10px;
+}
+
+.button-container {
+    position: relative;
+    text-align: center; /* 居中对齐所有子元素 */
+}
+
+.fixed-size-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* 保持图片的比例，可能会裁剪 */
+  }
+
+
+/* 确保 prompt 靠左对齐 
+#jspsych-html-button-response-prompt {
+    text-align: left;
+}
+    */
+
+/* 确保 stimulus 靠左对齐 
+#jspsych-html-button-response-stimulus {
+    text-align: left;
+}
+    */
+
+/* 确保按钮靠左对齐 
+.jspsych-html-button-response-button {
+    text-align: left;
+}
+*/
