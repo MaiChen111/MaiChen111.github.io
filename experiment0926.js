@@ -252,7 +252,7 @@ var instr_2 = {
     type: 'html-button-response',
     stimulus: `
         <div class="button-container">
-            <img src="loading.gif" alt="Loading" id="loadingGif" class="fixed-size-image" />
+            <img src="/MaiChen111/loading.gif" alt="Loading" id="loadingGif" class="fixed-size-image" />
         </div>
     `,
     choices: [''],
@@ -269,7 +269,7 @@ var instr_2 = {
             
             // 创建一个新的img元素以替换loading.gif
             var newImg = document.createElement('img');
-            newImg.src = 'report.jpg'; // 设置新图片的源
+            newImg.src = '/MaiChen111/report.jpg'; // 设置新图片的源
             newImg.alt = 'Report'; // 设置替代文本
             newImg.className = 'fixed-size-image'; // 应用相同的类名
 
